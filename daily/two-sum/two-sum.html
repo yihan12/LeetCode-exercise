@@ -6,6 +6,70 @@
     <title>two-sum两数之和</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      /**
+       * @param {number[]} nums
+       * @param {number} target
+       * @return {number[]}
+       */
+      const twoSum = function (nums, target) {
+        const map = new Map();
+        const len = nums.length; //数组长度
+        for (let i = 0; i < len; i++) {
+          //遍历查找数组nums
+          let diff = target - nums[i]; //target减去对应的数组的值
+          if (map.has(diff)) {
+            //判断是否已存在对应的减值，存在则取出返回，否则将减值（减出来的值）和对应索引储存
+            return [map.get(diff), i];
+          }
+          map.set(nums[i], i); //将减值（减出来的值）和对应索引储存
+        }
+      };
+      console.log(twoSum([2, 7, 11, 15], 9));
+
+      const twoSum1 = function (nums, target) {
+        const obj = {};
+        const len = nums.length;
+        for (let i = 0; i < len; i++) {
+          let reduce = target - nums[i];
+          if (obj[reduce] !== undefined) {
+            return [obj[reduce], i];
+          }
+          obj[nums[i]] = i;
+        }
+      };
+      console.log(twoSum1([2, 7, 11, 15], 9));
+
+      const twoSum2 = function (nums, target) {
+        const len = nums.length;
+        for (let i = 0; i < len; i++) {
+          for (let j = i + 1; j < len; j++) {
+            if (nums[i] + nums[j] === target) {
+              return [i, j];
+            }
+          }
+        }
+      };
+      console.log(twoSum2([2, 7, 11, 15], 9));
+
+      const twoSum3 = function (nums, target) {
+        const hash = {};
+        let result = [];
+        try {
+          nums.map(function (val, i) {
+            let reduce = target - val;
+            if (hash[reduce] !== undefined) {
+              result[0] = hash[reduce];
+              result[1] = i;
+              throw "err";
+            }
+            hash[val] = i;
+          });
+        } catch (err) {
+          return result;
+        }
+      };
+      console.log(twoSum3([2, 7, 11, 15], 9));
+    </script>
   </body>
 </html>
