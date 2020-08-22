@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>length-of-longest-substring 无重复字符的最长子串</title>
+  </head>
+  <body>
+    <script>
+      let str = "aaabbbcdefs";
+      const lengthOfLongestSubstring = (str) => {
+        let len = str.length;
+        if (len < 1) return;
+        let res = str[0];
+        let newLen = 1;
+        let newRes = str[0];
+        for (let i = 1; i < len; i++) {
+          let j = res.indexOf(str[i]);
+          if (j === -1) {
+            res = res + str[i];
+          }
+          if (j !== -1) {
+            res = res.substring(j + 1, res.length);
+            res = res + str[i];
+          }
+          if (res.length >= newLen) {
+            newLen = res.length;
+            newRes = res;
+          }
+        }
+        return newRes;
+      };
+
+      console.log(lengthOfLongestSubstring(str));
+    </script>
+  </body>
+</html>
