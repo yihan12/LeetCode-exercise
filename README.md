@@ -1,15 +1,15 @@
 # LeetCode-exercise
 算法自我练习使用，仅供参考，记录自己学习算法的点滴
-开始自己的学习之路！
+开始自己的算法掉发之路！
 
-[001two-sum](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/001two-sum/two-sum.md)
+### 华为机试108题  
 
-[002add-two-numbers](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/002add-two-numbers/add-two-numbers.md)
+**牛客网华为机试题地址：[华为机试](https://www.nowcoder.com/ta/huawei)**  
 
-[003length-of-longest-substring](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/003length-of-longest-substring/length-of-longest-substring.md)
 
-[004median-of-two-sorted-arrays](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/004findMedianSortedArrays/004findMedianSortedArrays.md)
 
+
+### leetcode题目
 
 | # | Title | Source Code | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
