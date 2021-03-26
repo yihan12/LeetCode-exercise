@@ -9,7 +9,7 @@
 
 | # | Title | Source Code | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
-| HJ1 | [HJ1](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/001two-sum/two-sum.md) |[计算字符串最后一个单词的长度](https://www.nowcoder.com/practice/8c949ea5f36f422594b306a2300315da?tpId=37&tqId=21224&rp=1&ru=%2Fta%2Fhuawei&qru=%2Fta%2Fhuawei%2Fquestion-ranking&tab=answerKey) | | Hard |  
+| HJ1 | [HJ1](https://github.com/yihan12/LeetCode-exercise/blob/master/HJ/HJ1.js) |[计算字符串最后一个单词的长度](https://www.nowcoder.com/practice/8c949ea5f36f422594b306a2300315da?tpId=37&tqId=21224&rp=1&ru=%2Fta%2Fhuawei&qru=%2Fta%2Fhuawei%2Fquestion-ranking&tab=answerKey) | | Hard |  
 | HJ2 | [add-two-numbers](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/002add-two-numbers/add-two-numbers.md) | | | Hard |  
 | HJ3 | [length-of-longest-substring](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/003length-of-longest-substring/length-of-longest-substring.md) | | | Hard |  
 | HJ4 | [median-of-two-sorted-arrays](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/004findMedianSortedArrays/004findMedianSortedArrays.md) | | | Hard |  
