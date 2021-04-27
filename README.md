@@ -2,6 +2,10 @@
 算法自我练习使用，仅供参考，记录自己学习算法的点滴
 开始自己的算法掉发之路！
 
+### javascript数据结构  
+
+- [x] [栈]()
+
 ### 排序算法  
 
 - [x] [冒泡排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F.md)  
