@@ -9,7 +9,8 @@
 ### 排序算法  
 
 - [x] [冒泡排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F.md)  
-- [x] [选择排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.md)
+- [x] [选择排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.md)  
+- [x] [插入排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.md)
 
 ### 华为机试108题  
 
