@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const isValid = function (s) {
+        let arr = [];
+        const obj = {
+          ")": "(",
+          "]": "[",
+          "}": "{",
+        };
+
+        for (let i = 0; i < s.length; i++) {
+          const val = s[i];
+          if (val === "(" || val === "[" || val === "{") {
+            arr.push(val);
+          } else {
+            const item = arr[arr.length - 1];
+            if (item === obj[val]) {
+              arr.pop();
+            } else {
+              arr.push(val);
+            }
+          }
+        }
+        // if (s[0] === "]" || s[0] === "}" || s[0] === ")") {
+        //   return false;
+        // }
+        if (arr.length === 0) {
+          return true;
+        } else {
+          return false;
+        }
+      };
+      console.log(isValid("()"));
+    </script>
+  </body>
+</html>
