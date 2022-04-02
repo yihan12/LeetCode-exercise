@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const simplifyPath = function (path) {
+        const arr = ["/"];
+        const pathArr = path.split("/");
+        pathArr.forEach((val) => {
+          if (val === "..") {
+            const item = arr.pop();
+            if (!arr[arr.length - 1]) {
+              arr.push("/");
+            } else if (arr[arr.length - 1] !== "/") {
+              arr.pop();
+            }
+          } else if (val !== "/" && val !== "." && val !== "") {
+            arr.push(val);
+            arr.push("/");
+          }
+        });
+        if (arr.length > 1 && arr[arr.length - 1] === "/") {
+          arr.pop();
+        }
+        return arr.join("");
+      };
+
+      console.log(simplifyPath("/../"));
+    </script>
+  </body>
+</html>
