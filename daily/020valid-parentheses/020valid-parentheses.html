@@ -8,36 +8,58 @@
   </head>
   <body>
     <script>
-      const isValid = function (s) {
-        let arr = [];
-        const obj = {
-          ")": "(",
-          "]": "[",
-          "}": "{",
-        };
+      // const isValid = function (s) {
+      //   let arr = [];
+      //   const obj = {
+      //     ")": "(",
+      //     "]": "[",
+      //     "}": "{",
+      //   };
 
+      //   for (let i = 0; i < s.length; i++) {
+      //     const val = s[i];
+      //     if (val === "(" || val === "[" || val === "{") {
+      //       arr.push(val);
+      //     } else {
+      //       const item = arr[arr.length - 1];
+      //       if (item === obj[val]) {
+      //         arr.pop();
+      //       } else {
+      //         arr.push(val);
+      //       }
+      //     }
+      //   }
+      //   // if (s[0] === "]" || s[0] === "}" || s[0] === ")") {
+      //   //   return false;
+      //   // }
+      //   return arr.length === 0;
+      // };
+      const isValid = function (s) {
+        if (s.length % 2 === 1) {
+          return false;
+        }
+        let arr = [];
+        const m = new Map([
+          ["(", ")"],
+          ["[", "]"],
+          ["{", "}"],
+        ]);
         for (let i = 0; i < s.length; i++) {
           const val = s[i];
-          if (val === "(" || val === "[" || val === "{") {
+          if (m.has(val)) {
             arr.push(val);
           } else {
             const item = arr[arr.length - 1];
-            if (item === obj[val]) {
+            if (m.get(item) === val) {
               arr.pop();
             } else {
-              arr.push(val);
+              return false;
             }
           }
         }
-        // if (s[0] === "]" || s[0] === "}" || s[0] === ")") {
-        //   return false;
-        // }
-        if (arr.length === 0) {
-          return true;
-        } else {
-          return false;
-        }
+        return arr.length === 0;
       };
+
       console.log(isValid("()"));
     </script>
   </body>
