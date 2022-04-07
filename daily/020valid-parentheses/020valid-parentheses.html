@@ -8,33 +8,33 @@
   </head>
   <body>
     <script>
-      // const isValid = function (s) {
-      //   let arr = [];
-      //   const obj = {
-      //     ")": "(",
-      //     "]": "[",
-      //     "}": "{",
-      //   };
+      const isValid1 = function (s) {
+        let arr = [];
+        const obj = {
+          ")": "(",
+          "]": "[",
+          "}": "{",
+        };
 
-      //   for (let i = 0; i < s.length; i++) {
-      //     const val = s[i];
-      //     if (val === "(" || val === "[" || val === "{") {
-      //       arr.push(val);
-      //     } else {
-      //       const item = arr[arr.length - 1];
-      //       if (item === obj[val]) {
-      //         arr.pop();
-      //       } else {
-      //         arr.push(val);
-      //       }
-      //     }
-      //   }
-      //   // if (s[0] === "]" || s[0] === "}" || s[0] === ")") {
-      //   //   return false;
-      //   // }
-      //   return arr.length === 0;
-      // };
-      const isValid = function (s) {
+        for (let i = 0; i < s.length; i++) {
+          const val = s[i];
+          if (val === "(" || val === "[" || val === "{") {
+            arr.push(val);
+          } else {
+            const item = arr[arr.length - 1];
+            if (item === obj[val]) {
+              arr.pop();
+            } else {
+              arr.push(val);
+            }
+          }
+        }
+        // if (s[0] === "]" || s[0] === "}" || s[0] === ")") {
+        //   return false;
+        // }
+        return arr.length === 0;
+      };
+      const isValid2 = function (s) {
         if (s.length % 2 === 1) {
           return false;
         }
@@ -60,7 +60,8 @@
         return arr.length === 0;
       };
 
-      console.log(isValid("()"));
+      console.log(isValid1("()"));
+      console.log(isValid2("()"));
     </script>
   </body>
 </html>
