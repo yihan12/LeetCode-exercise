@@ -1,5 +1,5 @@
  const isValid = function(s){
-    if(s.length==0){
+    if(s.length==1){
       return false
     }
     const sVar = new Map([
