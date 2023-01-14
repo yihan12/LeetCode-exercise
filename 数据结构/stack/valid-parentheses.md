@@ -49,7 +49,8 @@
       }else if(sVar.get(stack[stack.length-1])==s[i]){
         stack.pop()
       }else{
-        stack.push(s[i])
+         // stack.push(s[i])
+         return false
       }
     }
     if(stack.length==0){
