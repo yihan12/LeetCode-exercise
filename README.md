@@ -6,6 +6,9 @@
 - [x] [时间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%AE%A1%E7%AE%97.md)  
 - [x] [空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%AE%A1%E7%AE%97.md)
 
+### 算法需用到的js基础知识
+- [x] [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
+
 ### javascript数据结构  
 
 - [x] [栈](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%88.md)  
@@ -38,7 +41,6 @@
 
 #### 字符串
 
-- [x] [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
 
 | # | Title | Source Code | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
@@ -56,4 +58,5 @@
 | 003 | [length-of-longest-substring](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/003length-of-longest-substring/length-of-longest-substring.md) | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | | 中等 |
 | 004 | [median-of-two-sorted-arrays](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/004findMedianSortedArrays/004findMedianSortedArrays.md) | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | | 中等 |
 
-1111
+
+
