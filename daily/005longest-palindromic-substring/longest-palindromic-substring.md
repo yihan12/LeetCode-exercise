@@ -2,25 +2,33 @@
 
 [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/)
 
-> 给你一个字符串 s，找到 s 中最长的回文子串。  
-> 如果字符串的反序与原始字符串相同，则该字符串称为回文字符串。
+```
+给你一个字符串 s，找到 s 中最长的回文子串。
+如果字符串的反序与原始字符串相同，则该字符串称为回文字符串。
 
 示例 1：
 
-```
 输入：s = "babad"
 输出："bab"
 解释："aba" 同样是符合题意的答案。
-```
 
 示例 2：
 
-```
 输入：s = "cbbd"
 输出："bb"
 ```
 
 ### 思路与解答
+
+- 1.如果 s 的长度是 1 或者 0 的时候，s 的最长回文子串就是它本身，例如'a',直接返回 s。
+
+```javascript
+if (s.length < 2) {
+  return s
+}
+```
+
+- 2.遍历整个 s，当下标为奇数，
 
 ```javascript
 const longestPalindrome = function (s) {
