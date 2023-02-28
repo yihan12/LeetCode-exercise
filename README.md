@@ -38,6 +38,8 @@
 
 #### 字符串
 
+- [x] [字符串处理的基础知识]()
+
 | # | Title | Source Code | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
 | 001 | [two-sum](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/001two-sum/two-sum.md) | [两数之和](https://leetcode-cn.com/problems/two-sum) | | 中等 |
