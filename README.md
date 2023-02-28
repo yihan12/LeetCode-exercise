@@ -38,7 +38,7 @@
 
 #### 字符串
 
-- [x] [字符串处理的基础知识]()
+- [x] [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
 
 | # | Title | Source Code | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
@@ -46,6 +46,8 @@
 | 002 | [add-two-numbers](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/002add-two-numbers/add-two-numbers.md) | [两数相加](https://leetcode.com/problems/add-two-numbers/description/) | | 简单 |
 | 003 | [length-of-longest-substring](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/003length-of-longest-substring/length-of-longest-substring.md) | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | | 中等 |
 | 004 | [median-of-two-sorted-arrays](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/004findMedianSortedArrays/004findMedianSortedArrays.md) | [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | | 中等 |
+
+### other
 
 | # | Title | Source Code | Explanation | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
