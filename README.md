@@ -10,7 +10,7 @@
 - [x] [时间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%AE%A1%E7%AE%97.md)  
 - [x] [空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%AE%A1%E7%AE%97.md)
 
-### 算法需用到的js基础知识
+### 算法-js基础知识
 - [x] [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
 
 ### javascript数据结构  
