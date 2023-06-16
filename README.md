@@ -12,7 +12,7 @@
 * [空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/space_complexity.md)
 
 
-### 算法-js 基础知识
+### 算法-字符串
 
 * [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/String/base/README.md)
 
