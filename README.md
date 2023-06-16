@@ -14,7 +14,7 @@
 
 ### 算法-js 基础知识
 
-- [x] [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
+* [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/String/base/README.md)
 
 ### javascript 数据结构
 
