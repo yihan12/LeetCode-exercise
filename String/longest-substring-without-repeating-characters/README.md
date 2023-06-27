@@ -48,16 +48,16 @@
  * @return {number}
  */
 const lengthOfLongestSubstring = function (str) {
-  let len = s.length
+  let len = str.length
   if( len <= 1) {
       return len
   }
-  let newStr = s[0]
+  let newStr = str[0]
   let max = 1
   for (let i = 1; i < len; i++ ) {
-      let j = newStr.indexOf(s[i]);
-      if (j !== -1) str = newStr.substring(j+1, newStr.length)
-      newStr = newStr + s[i]
+      let j = newStr.indexOf(str[i]);
+      if (j !== -1) newStr = newStr.substring(j+1, newStr.length)
+      newStr = newStr + str[i]
       max = Math.max(max, newStr.length)
   }
   return max
