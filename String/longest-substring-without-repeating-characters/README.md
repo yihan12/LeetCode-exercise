@@ -28,7 +28,7 @@
 
 ```
 
-### 思路一
+### 思路一 下标维护
 
 1. 因为需要找无重复的子串，我们可以定义初始化的子串是第一个字符，也就是 `let newStr = str[0]`。
 2. 然后我们每次往后去加一个字符也就是str[i]。
@@ -48,22 +48,36 @@ const lengthOfLongestSubstring = function (str) {
   let len = s.length
   let str = s[0]
   let max = 1
-  if(len==0 || len ==1){
+  if(len<=1){
       return len
   }
   for(let i =1; i<len; i++ ){
-          let j = str.indexOf(s[i]);
-          if(j == -1){
-              str = str + s[i]
-              
-          }
-          if(j!=-1){
-              str = str.substring(j+1,str.length)
-              str=str+s[i]
-              
-          }
-          max = max >= str.length?max:str.length
+      let j = str.indexOf(s[i]);
+      if(j == -1){
+          str = str + s[i]
+      }
+      if(j!=-1){
+          str = str.substring(j+1,str.length)
+          str=str+s[i]
+      }
+      max = max >= str.length?max:str.length
   }
   return max
 };
 ```
+
+#### 代码优化
+```javascript
+const lengthOfLongestSubstring = function(s) {
+    let index = 0, max = 0;
+    for(let i = 0, j = 0; j < s.length; j++) {
+        index = s.substring(i, j).indexOf(s[j]) 
+        if(index !== -1) { 
+            i = i + index + 1 
+        } 
+        max = Math.max(max, j - i + 1) 
+    }
+    return max
+};
+```
+
