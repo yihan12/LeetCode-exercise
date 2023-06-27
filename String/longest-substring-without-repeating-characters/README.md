@@ -46,25 +46,25 @@
  * @return {number}
  */
 const lengthOfLongestSubstring = function (str) {
-  let len = str.length;
-  if (len < 1) return 0;
-  let res = str[0];
-  let newLen = 1;
-  let newRes = str[0];
-  for (let i = 1; i < len; i++) {
-    let j = res.indexOf(str[i]);
-    if (j === -1) {
-      res = res + str[i];
-    }
-    if (j !== -1) {
-      res = res.substring(j + 1, res.length);
-      res = res + str[i];
-    }
-    if (res.length >= newLen) {
-      newLen = res.length;
-      newRes = res;
-    }
+  let len = s.length
+  let str = s[0]
+  let max = 1
+  if(len==0 || len ==1){
+      return len
   }
-  return newLen;
+  for(let i =1; i<len; i++ ){
+          let j = str.indexOf(s[i]);
+          if(j == -1){
+              str = str + s[i]
+              
+          }
+          if(j!=-1){
+              str = str.substring(j+1,str.length)
+              str=str+s[i]
+              
+          }
+          max = max >= str.length?max:str.length
+  }
+  return max
 };
 ```
