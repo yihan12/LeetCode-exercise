@@ -28,7 +28,10 @@
 
 ```
 
-### 思路一 下标维护
+### 解法一 滑动窗口
+> 使用方法：indexOf + substring
+
+#### 思路
 
 1. 因为需要找无重复的子串，我们可以定义初始化的子串是第一个字符，也就是 `let newStr = str[0]`。
 2. 然后我们每次往后去加一个字符也就是str[i]。
@@ -51,7 +54,6 @@ const lengthOfLongestSubstring = function (str) {
   }
   let str = s[0]
   let max = 1
-
   for (let i = 1; i < len; i++ ) {
       let j = str.indexOf(s[i]);
       if (j == -1) {
