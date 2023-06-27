@@ -44,7 +44,7 @@
 
 ```javascript
 /**
- * @param {string} s
+ * @param {string} str
  * @return {number}
  */
 const lengthOfLongestSubstring = function (str) {
