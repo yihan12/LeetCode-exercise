@@ -29,7 +29,7 @@
 ```
 
 ### 解法一 滑动窗口
-> 使用方法：indexOf + substring
+> 使用方法：indexOf + substring + Math.max
 
 #### 思路
 
@@ -52,35 +52,15 @@ const lengthOfLongestSubstring = function (str) {
   if( len <= 1) {
       return len
   }
-  let str = s[0]
+  let newStr = s[0]
   let max = 1
   for (let i = 1; i < len; i++ ) {
-      let j = str.indexOf(s[i]);
-      if (j == -1) {
-          str = str + s[i]
-      }
-      if(j!=-1){
-          str = str.substring(j+1, str.length)
-          str = str + s[i]
-      }
-      max = max >= str.length ? max : str.length
+      let j = newStr.indexOf(s[i]);
+      if (j !== -1) str = newStr.substring(j+1, newStr.length)
+      newStr = newStr + s[i]
+      max = Math.max(max, newStr.length)
   }
   return max
-};
-```
-
-#### 代码优化
-```javascript
-const lengthOfLongestSubstring = function(s) {
-    let index = 0, max = 0;
-    for(let i = 0, j = 0; j < s.length; j++) {
-        index = s.substring(i, j).indexOf(s[j]) 
-        if(index !== -1) { 
-            i = i + index + 1 
-        } 
-        max = Math.max(max, j - i + 1) 
-    }
-    return max
 };
 ```
 
