@@ -28,7 +28,7 @@
 
 ```
 
-### 解法一 滑动窗口
+### 解法 滑动窗口+双指针
 
 
 #### 思路
@@ -87,7 +87,7 @@ const lengthOfLongestSubstring = function(s) {
 #### 代码三
 > 使用方法：Map数据结构 + Math.max
 
-代码三的思路也是与代码一一致
+代码三的思路也是与代码一一致，优点：indexOf会自带循环获取下标的逻辑，时间上会比Map慢
 ```javascript
 const lengthOfLongestSubstring = function(s) {
     let map = new Map(), max = 0
