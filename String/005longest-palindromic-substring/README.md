@@ -81,10 +81,12 @@ const longestPalindrome = function (s) {
 ### 思路
 1. 状态定义
 dp[i,j]：字符串s从索引i到j的子串是否是回文串
-true： s[i,j] 是回文串
-false：s[i,j] 不是回文串
+
+* true： s[i,j] 是回文串
+* false：s[i,j] 不是回文串
 2. 转移方程
 dp[i][j] = dp[i+1][j-1] && s[i] == s[j]
+
 * s[i] == s[j]：说明当前中心可以继续扩张，进而有可能扩大回文串的长度
 * dp[i+1][j-1]：true
   * 说明s[i,j]的**子串s[i+1][j-1]**也是回文串
