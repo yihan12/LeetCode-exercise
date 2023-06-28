@@ -29,7 +29,7 @@
 ```
 
 ### 解法一 滑动窗口
-> 使用方法：indexOf + substring + Math.max
+
 
 #### 思路
 
@@ -40,8 +40,9 @@
 5. 最后将存的最大值和当前的最大值比较。
 6. 循环上述操作，从而得出最后的最大值max。
 
-#### 代码
+#### 代码一
 
+> 使用方法：indexOf + substring + Math.max
 ```javascript
 /**
  * @param {string} str
@@ -61,6 +62,25 @@ const lengthOfLongestSubstring = function (str) {
       max = Math.max(max, newStr.length)
   }
   return max
+};
+```
+
+#### 代码二
+> 使用方法：push + splice + charAt + Math.max
+
+代码二的逻辑基本与代码一一致，唯一区别在于方法的使用
+```javascript
+const lengthOfLongestSubstring = function(s) {
+    let arr = [], max = 0;
+    for(let i = 0; i < s.length; i++) {
+        let index = arr.indexOf(s[i])
+        if(index !== -1) {
+            arr.splice(0, index+1);
+        }
+        arr.push(s.charAt(i))
+        max = Math.max(arr.length, max) 
+    }
+    return max
 };
 ```
 
