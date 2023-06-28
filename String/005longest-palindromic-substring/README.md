@@ -2,7 +2,7 @@
 
 ### 题目地址
 
-> [https://leetcode.com/problems/longest-substring-without-repeating-characters/description/](https://leetcode.cn/problems/longest-palindromic-substring/)
+> [https://leetcode.cn/problems/longest-palindromic-substring/](https://leetcode.cn/problems/longest-palindromic-substring/)
 
 ### 题目描述
 
