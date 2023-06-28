@@ -66,7 +66,7 @@ const lengthOfLongestSubstring = function (str) {
 ```
 
 #### 代码二
-> 使用方法：push + splice + charAt + Math.max
+> 使用方法：push + splice + indexOf + charAt + Math.max
 
 代码二的逻辑基本与代码一一致，唯一区别在于方法的使用
 ```javascript
@@ -83,4 +83,24 @@ const lengthOfLongestSubstring = function(s) {
     return max
 };
 ```
+
+#### 代码三
+> 使用方法：Map数据结构 + Math.max
+
+代码三的思路也是与代码一一致
+```javascript
+const lengthOfLongestSubstring = function(s) {
+    let map = new Map(), max = 0
+    for(let i = 0, j = 0; j < s.length; j++) {
+        if(map.has(s[j])) {
+            i = Math.max(map.get(s[j]) + 1, i)
+        }
+        max = Math.max(max, j - i + 1)
+        map.set(s[j], j)
+    }
+    return max
+};
+```
+
+
 
