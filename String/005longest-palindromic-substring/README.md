@@ -75,3 +75,50 @@ const longestPalindrome = function (s) {
   return res
 }
 ```
+
+### 解法二 动态规划
+
+### 思路
+1. 状态定义
+dp[i,j]：字符串s从索引i到j的子串是否是回文串
+true： s[i,j] 是回文串
+false：s[i,j] 不是回文串
+2. 转移方程
+dp[i][j] = dp[i+1][j-1] && s[i] == s[j]
+* s[i] == s[j]：说明当前中心可以继续扩张，进而有可能扩大回文串的长度
+* dp[i+1][j-1]：true
+  * 说明s[i,j]的**子串s[i+1][j-1]**也是回文串
+  * 说明，i是从最大值开始遍历的，j是从最小值开始遍历的
+* 特殊情况
+  * j===i：s[i]和是[j]值是同一个值
+  * j - i === 1:表示s[i]和是[j]为相邻值，则需要是s[i]===s[j]
+
+### 代码
+```javascript
+const longestPalindrome = function (s) {
+  if (!s || s.length < 2) return s;
+  let res = s[0];
+  const dp = [];
+  // 倒着遍历简化操作， 这么做的原因是dp[i][..]依赖于dp[i + 1][..]
+  for (let i = s.length - 1; i >= 0; i--) {
+    dp[i] = [];
+    for (let j = i; j < s.length; j++) {
+      if (j - i === 0) dp[i][j] = true; // j===i的时候，值是同一个值
+      // specail case 1
+      else if (j - i === 1 && s[i] === s[j]) dp[i][j] = true; // j - i === 1的时候，表示s[i]和是[j]为相邻值，则需要是s[i]===s[j]
+      // specail case 2
+      else if (s[i] === s[j] && dp[i + 1][j - 1]) { // 所有的i+1和j-1为true,并且s[i] === s[j]
+        // state transition
+        dp[i][j] = true;
+      }
+
+      if (dp[i][j] && j - i + 1 > res.length) {
+        // update res
+        res = s.slice(i, j + 1);
+      }
+    }
+  }
+
+  return res;
+};
+```
