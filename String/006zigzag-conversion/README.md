@@ -44,6 +44,8 @@ P     I
 #### 代码
 ```javascript
 const convert = function (s, numRows) {
+  // 如果numRows == 1则表示z行变换时，全在一行，返回的数据就是s
+  // 如果numRows > s.length，则s的数据正好放一列，返回的数据也是s
   if (numRows == 1 || numRows > s.length) return s
 
   const rows = new Array(numRows).fill('')
