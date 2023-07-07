@@ -60,3 +60,22 @@ const convert = function (s, numRows) {
   return rows.join('')
 }
 ```
+利用Array.from创建空数组
+```javascript
+const convert = function (s, numRows) {
+  // 如果numRows == 1则表示z行变换时，全在一行，返回的数据就是s
+  // 如果numRows > s.length，则s的数据正好放一列，返回的数据也是s
+  if (numRows == 1 || numRows > s.length) return s
+
+  const rows = Array.from({length:numRows}, v=> v='')
+  let loc = 0
+  let down = false
+
+  for (const c of s) {
+    rows[loc] = rows[loc] + c
+    if (loc == 0 || loc == numRows - 1) down = !down
+    loc = down ? loc + 1 : loc - 1
+  }
+  return rows.join('')
+}
+```
