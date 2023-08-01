@@ -15,7 +15,7 @@
 ### 算法-字符串
 
 * [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/String/base/README.md)
-* [无重复字符的最长子串](https://github.com/yihan12/LeetCode-exercise/tree/master/String/003longest-substring-without-repeating-characters)
+* [无重复字符的最长子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/003longest-substring-without-repeating-characters/README.md)
 * [最长回文子串](https://github.com/yihan12/LeetCode-exercise/tree/master/String/005longest-palindromic-substring)
 * [字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/String/049group-anagrams/README.md)
 
