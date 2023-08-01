@@ -7,26 +7,26 @@
 
 开始自己的算法掉发之路！
 
-### 时间/空间复杂度
-* [时间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/time_complexity.md)
-* [空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/space_complexity.md)
+- [x] **时间/空间复杂度**
+  * - [x] [时间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/time_complexity.md)
+  * - [x][空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/space_complexity.md)
 
 
-### 算法-字符串
+- [x] **算法-字符串**
 
 * [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/String/base/README.md)
 * [无重复字符的最长子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/003longest-substring-without-repeating-characters/README.md)
 * [最长回文子串](https://github.com/yihan12/LeetCode-exercise/tree/master/String/005longest-palindromic-substring)
 * [字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/String/049group-anagrams/README.md)
 
-### javascript 数据结构
+- [x] **javascript 数据结构**
 
 - [x] [栈](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%88.md)
   - [例：有效括号](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/stack/valid-parentheses.md)
 - [x] [链表]()
 - [x] [链表]()
 
-### 排序算法
+- [x] **排序算法**
 
 - [x] [冒泡排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F.md)
 - [x] [选择排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F.md)
@@ -34,7 +34,7 @@
 - [x] [希尔排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F.md)
 - [x] [归并排序](https://github.com/yihan12/LeetCode-exercise/blob/master/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F.md)
 
-### 华为机试 108 题
+- [x] **华为机试 108 题**
 
 **牛客网华为机试题地址：[华为机试](https://www.nowcoder.com/ta/huawei)**
 
@@ -45,9 +45,9 @@
 | HJ3 | [HJ3](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/003length-of-longest-substring/length-of-longest-substring.md) |         [明明的随机数](https://www.nowcoder.com/practice/3245215fffb84b7b81285493eae92ff0?tpId=37&tqId=21226&rp=1&ru=%2Fta%2Fhuawei&qru=%2Fta%2Fhuawei%2Fquestion-ranking&tab=answerKey)         |             |     ★★     |
 | HJ4 |    [HJ4](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/004findMedianSortedArrays/004findMedianSortedArrays.md)     |               [字符串分隔](https://www.nowcoder.com/practice/d9162298cb5a437aad722fccccaae8a7?tpId=37&rp=1&ru=%2Fta%2Fhuawei&qru=%2Fta%2Fhuawei%2Fquestion-ranking&tab=answerKey)                |             |     ★★     |
 
-### leetcode 题目
+- [x] **leetcode 题目**
 
-#### 字符串
+- [x] **字符串**
 
 |  #  |                                                                               Title                                                                               |                                                                              Source Code                                                                               | Explanation | Difficulty |
 | :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: | :--------: |
@@ -56,7 +56,8 @@
 | 017 |                           [letter-combinations-of-a-phone-number](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)                            | [电话号码的字母组合](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/017letter-combinations-of-a-phone-number/letter-combinations-of-a-phone-number.md) |             |     ★★     |
 | 004 |       [median-of-two-sorted-arrays](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/004findMedianSortedArrays/004findMedianSortedArrays.md)        |                                       [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)                                        |             |     ★★     |
 
-### other
+
+- [x] **other** 
 
 |  #  |                                                                            Title                                                                            |                                                    Source Code                                                    | Explanation | Difficulty |
 | :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: | :---------: | :--------: |
