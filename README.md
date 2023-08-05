@@ -23,15 +23,9 @@
   * - [x] [组合总和](https://github.com/yihan12/LeetCode-exercise/blob/master/String/039combination-sum/README.md)
 
 - [x] **栈**
-  * - [x] [有效括号]()
-  * - [x] [二叉树的前序遍历]() 
-
-- [x] **javascript 数据结构**
-
   * - [x] [栈](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%A0%88.md)
   * - [x] [例：有效括号](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/stack/valid-parentheses.md)
-  * - [x] [链表]()
-  * - [x] [链表]()
+  * - [x] [二叉树的前序遍历]() 
 
 - [x] **排序算法**
 
