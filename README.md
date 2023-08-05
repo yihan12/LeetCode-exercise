@@ -66,3 +66,6 @@
 | 002 |                   [add-two-numbers](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/002add-two-numbers/add-two-numbers.md)                   |                      [两数相加](https://leetcode.com/problems/add-two-numbers/description/)                       |             |     ★      |
 | 003 | [length-of-longest-substring](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/003length-of-longest-substring/length-of-longest-substring.md) | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |             |     ★★     |
 | 004 |    [median-of-two-sorted-arrays](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/004findMedianSortedArrays/004findMedianSortedArrays.md)     |             [寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)             |             |     ★★     |
+
+- [x] **书籍以及电子书推荐**
+ * - [x] 【啊哈!算法】
