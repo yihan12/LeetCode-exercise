@@ -14,6 +14,8 @@
   * - [x] [时间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/time_complexity.md)  ★
   * - [x] [空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/space_complexity.md) ★
 
+- [x] **实用算法**
+  * - [x] [二分算法]()
 
 - [x] **算法-字符串**
 
