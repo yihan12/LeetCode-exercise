@@ -7,15 +7,13 @@
 
 开始自己的算法掉发之路！
 
-- [x] **JavaScript基础知识**
+- [x] **基础知识**
   * - [x] [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/String/base/README.md)
-
-- [x] **时间/空间复杂度**
-  * - [x] [时间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/time_complexity.md)  ★
-  * - [x] [空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/space_complexity.md) ★
-
-- [x] **实用算法**
-  * - [x] [二分算法]()
+  * - [x] [时间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/time_complexity.md)  
+  * - [x] [空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/space_complexity.md)  
+  * - [x] [二分查找]()  
+  * - [x] [大O表示法]()
+  * - [x] [递归]()
 
 - [x] **算法-字符串**
 
