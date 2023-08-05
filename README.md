@@ -7,6 +7,9 @@
 
 开始自己的算法掉发之路！
 
+- [x] **JavaScript基础知识**
+  * - [x] [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/String/base/README.md)
+
 - [x] **时间/空间复杂度**
   * - [x] [时间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/time_complexity.md)  ★
   * - [x] [空间复杂度计算](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/space_complexity.md) ★
@@ -14,7 +17,6 @@
 
 - [x] **算法-字符串**
 
-  * - [x] [字符串处理的基础知识](https://github.com/yihan12/LeetCode-exercise/blob/master/String/base/README.md) ★
   * - [x] [无重复字符的最长子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/003longest-substring-without-repeating-characters/README.md) ★★
   * - [x] [最长回文子串](https://github.com/yihan12/LeetCode-exercise/tree/master/String/005longest-palindromic-substring) ★★
   * - [x] [字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/String/049group-anagrams/README.md) ★★
