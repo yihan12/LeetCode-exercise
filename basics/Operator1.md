@@ -1,6 +1,6 @@
 ### 示例
 ```javascript
-var num = 0;
+let num = 0;
 num = num + 2;
 num = num * 3;
 num = num / 2;
