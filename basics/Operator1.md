@@ -1,4 +1,4 @@
-### 先了解下总体的
+### 示例
 ```javascript
 var num = 0;
 num = num + 2;
