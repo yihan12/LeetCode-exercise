@@ -21,8 +21,9 @@
 
   * - [x] [003无重复字符的最长子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/003longest-substring-without-repeating-characters/README.md) ★★
   * - [x] [005最长回文子串](https://github.com/yihan12/LeetCode-exercise/tree/master/String/005longest-palindromic-substring) ★★
-  * - [x] [字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/String/049group-anagrams/README.md) ★★
-  * - [x] [组合总和](https://github.com/yihan12/LeetCode-exercise/blob/master/String/039combination-sum/README.md)
+  * - [x] [039组合总和](https://github.com/yihan12/LeetCode-exercise/blob/master/String/039combination-sum/README.md)★★
+  * - [x] [049字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/String/049group-anagrams/README.md) ★★
+
 
 - [x] **Number**
   * - [x] [整数反转]()
