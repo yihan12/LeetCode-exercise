@@ -1,3 +1,6 @@
+### 题目地址
+> https://leetcode.cn/problems/longest-common-prefix/
+
 ### 题目描述
 ```
 编写一个函数来查找字符串数组中的最长公共前缀。
@@ -17,7 +20,11 @@
 解释：输入不存在公共前缀。
 ```
 
-### 解法一
+### 解答
+
+#### 思路
+
+#### 代码一
 ```javascript
 const longestCommonPrefix = (strs) => {
     let len = strs.length
@@ -35,7 +42,7 @@ const longestCommonPrefix = (strs) => {
     return str
 };
 ```
-### 解法二
+#### 代码二
 ```javascript
 const longestCommonPrefix = (strs) => {
     if(strs.length == 0) 
