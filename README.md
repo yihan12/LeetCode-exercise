@@ -19,12 +19,13 @@
 
 - [x] **字符串**
 
-  * - [x] [003无重复字符的最长子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/003longest-substring-without-repeating-characters/README.md) ★★
-  * - [x] [005最长回文子串](https://github.com/yihan12/LeetCode-exercise/tree/master/String/005longest-palindromic-substring) ★★
-  * - [x] [006N 字形变换](https://github.com/yihan12/LeetCode-exercise/blob/master/String/006zigzag-conversion/README.md)★★
-  * - [x] [014最长公共前缀](https://github.com/yihan12/LeetCode-exercise/blob/master/String/014longest-common-prefix/README.md)★  
-  * - [x] [039组合总和](https://github.com/yihan12/LeetCode-exercise/blob/master/String/039combination-sum/README.md)★★
-  * - [x] [049字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/String/049group-anagrams/README.md) ★★
+  * - [x] [003. 无重复字符的最长子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/003longest-substring-without-repeating-characters/README.md) ★★
+  * - [x] [005. 最长回文子串](https://github.com/yihan12/LeetCode-exercise/tree/master/String/005longest-palindromic-substring) ★★
+  * - [x] [006. N 字形变换](https://github.com/yihan12/LeetCode-exercise/blob/master/String/006zigzag-conversion/README.md)★★
+  * - [x] [014. 最长公共前缀](https://github.com/yihan12/LeetCode-exercise/blob/master/String/014longest-common-prefix/README.md)★
+  * - [x] [030. 串联所有单词的子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/030%20substring-with-concatenation-of-all-words/README.md)★★★  
+  * - [x] [039. 组合总和](https://github.com/yihan12/LeetCode-exercise/blob/master/String/039combination-sum/README.md)★★
+  * - [x] [049. 字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/String/049group-anagrams/README.md) ★★
 
 
 - [x] **Number**
