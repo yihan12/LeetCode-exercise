@@ -34,7 +34,7 @@
 
 - [x] **栈**
   * - [x] [栈](https://github.com/yihan12/LeetCode-exercise/blob/master/Stack/README.md)
-  * - [x] [例：有效括号](https://github.com/yihan12/LeetCode-exercise/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/stack/valid-parentheses.md)
+  * - [x] [020. 有效括号](https://github.com/yihan12/LeetCode-exercise/blob/master/Stack/020valid-parentheses/README.md)
   * - [x] [二叉树的前序遍历]() 
 
 
