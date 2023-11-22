@@ -32,6 +32,8 @@
 
 - [x] **线性表**
 
+- [x] **队列**
+
 - [x] **栈**
   * - [x] [栈](https://github.com/yihan12/LeetCode-exercise/blob/master/Stack/README.md)
   * - [x] [020. 有效括号](https://github.com/yihan12/LeetCode-exercise/blob/master/Stack/020valid-parentheses/README.md)
