@@ -39,7 +39,12 @@
   * - [x] [020. 有效括号](https://github.com/yihan12/LeetCode-exercise/blob/master/Stack/020valid-parentheses/README.md)
   * - [x] [二叉树的前序遍历]() 
 
+- [x] **哈希表**
 
+- [x] **DFS**
+
+- [x] **BFS**
+     
 - [x] **Number**
   * - [x] [整数反转]()
 
