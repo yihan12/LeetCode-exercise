@@ -41,6 +41,7 @@
   * - [x] [二叉树的前序遍历]() 
 
 - [x] **哈希表**
+  * - [x] [001. 两数之和](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/001two-sum/README.md) ★★   
 
 - [x] **DFS**
 
