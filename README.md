@@ -41,7 +41,8 @@
 
 - [x] **哈希表**
   * - [x] [001. 两数之和](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/001two-sum/README.md) ★
-  * - [x] [049. 字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/049group-anagrams/README.md)  ★★   
+  * - [x] [049. 字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/049group-anagrams/README.md)  ★★
+  * - [x] [128. 最长连续序列](https://github.com/yihan12/LeetCode-exercise/tree/master/Hash%20Table/128longest-consecutive-sequence) ★★   
 
 - [x] **DFS**
 
