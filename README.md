@@ -31,6 +31,7 @@
   * - [x] [647. 回文子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/647palindromic-substrings/README.md) ★★
 
 - [x] **线性表**
+  * - [x] [016最接近的三数之和](https://github.com/yihan12/LeetCode-exercise/tree/master/Linear%20List/0163sum-closest) ★★  
 
 - [x] **队列**
 
