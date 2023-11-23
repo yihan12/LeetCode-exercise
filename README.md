@@ -24,8 +24,7 @@
   * - [x] [006. N 字形变换](https://github.com/yihan12/LeetCode-exercise/blob/master/String/006zigzag-conversion/README.md) ★★
   * - [x] [014. 最长公共前缀](https://github.com/yihan12/LeetCode-exercise/blob/master/String/014longest-common-prefix/README.md) ★
   * - [x] [030. 串联所有单词的子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/030%20substring-with-concatenation-of-all-words/README.md) ★★★  
-  * - [x] [039. 组合总和](https://github.com/yihan12/LeetCode-exercise/blob/master/String/039combination-sum/README.md) ★★
-  * - [x] [049. 字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/String/049group-anagrams/README.md) ★★
+  * - [x] [039. 组合总和](https://github.com/yihan12/LeetCode-exercise/blob/master/String/039combination-sum/README.md) ★★  
   * - [x] [151. 反转字符串中的单词](https://github.com/yihan12/LeetCode-exercise/blob/master/String/151reverse-words-in-a-string/README.md) ★★
   * - [x] [415. 字符串相加](https://github.com/yihan12/LeetCode-exercise/blob/master/String/415add-strings/README.md) ★
   * - [x] [647. 回文子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/647palindromic-substrings/README.md) ★★
@@ -42,7 +41,7 @@
 
 - [x] **哈希表**
   * - [x] [001. 两数之和](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/001two-sum/README.md) ★
-  * - [x] [49. 字母异位词分组]()  ★★   
+  * - [x] [049. 字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/049group-anagrams/README.md)  ★★   
 
 - [x] **DFS**
 
