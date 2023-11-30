@@ -2,6 +2,8 @@
 
 # 创建、初始化
 
+### `new Array()`
+
 ```javascript
 const daysOfWeek1 = new Array();
 const daysOfWeek2 = new Array(7);
