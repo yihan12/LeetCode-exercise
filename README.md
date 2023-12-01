@@ -33,10 +33,12 @@
   * - [x] [647. 回文子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/647palindromic-substrings/README.md) ★★
 
 - [x] **数组**
-  * - [x] []()
+  * - [x] [001. 两数之和](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/001two-sum/README.md)  ★
+  * - [x] [004. 寻找两个正序数组的中位数](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/004findMedianSortedArrays/README.md)  ★★★     
 
 - [x] **线性表**
-  * - [x] [016最接近的三数之和](https://github.com/yihan12/LeetCode-exercise/tree/master/Linear%20List/0163sum-closest) ★★  
+  * - [x] [016最接近的三数之和](https://github.com/yihan12/LeetCode-exercise/tree/master/Linear%20List/0163sum-closest) ★★   
+
 
 - [x] **队列**
 
