@@ -35,7 +35,8 @@
 - [x] **数组**
   * - [x] [001. 两数之和](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/001two-sum/README.md)  ★
   * - [x] [004. 寻找两个正序数组的中位数](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/004findMedianSortedArrays/README.md)  ★★★
-  * - [x] [011. 盛最多水的容器](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/011container-with-most-water/README.md) ★★   
+  * - [x] [011. 盛最多水的容器](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/011container-with-most-water/README.md) ★★
+  * - [x] [016. 最接近的三数之和](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/016threesum-closest/README.md) ★★    
 
 - [x] **线性表**
   * - [x] [016最接近的三数之和](https://github.com/yihan12/LeetCode-exercise/tree/master/Linear%20List/0163sum-closest) ★★   
