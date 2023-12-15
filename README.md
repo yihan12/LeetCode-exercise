@@ -17,6 +17,8 @@
   * - [x] [大O表示法]()
   * - [x] [递归]()
 
+# 数据结构
+
 - [x] **字符串**
 
   * - [x] [003. 无重复字符的最长子串](https://github.com/yihan12/LeetCode-exercise/blob/master/String/003longest-substring-without-repeating-characters/README.md) ★★
@@ -51,7 +53,9 @@
 - [x] **栈**
   * - [x] [栈](https://github.com/yihan12/LeetCode-exercise/blob/master/Stack/README.md)
   * - [x] [020. 有效括号](https://github.com/yihan12/LeetCode-exercise/blob/master/Stack/020valid-parentheses/README.md)
-  * - [x] [二叉树的前序遍历]() 
+  * - [x] [二叉树的前序遍历]()
+
+# 算法
 
 - [x] **哈希表**
   * - [x] [001. 两数之和](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/001two-sum/README.md) ★
@@ -60,6 +64,7 @@
   * - [x] [036. 有效的数独](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/036valid-sudoku/README.md) ★★ 
   * - [x] [049. 字母异位词分组](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/049group-anagrams/README.md)  ★★  
   * - [x] [128. 最长连续序列](https://github.com/yihan12/LeetCode-exercise/tree/master/Hash%20Table/128longest-consecutive-sequence) ★★  
+
 
 
 - [x] **DFS**
