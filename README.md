@@ -60,7 +60,7 @@
 
 - [x] **双指针**
   * - [x] [042.接雨水](https://github.com/yihan12/LeetCode-exercise/tree/master/Two%20Pointers/042trapping-rain-water/README.md)
-  * - [x] []()
+  * - [x] [075.颜色分类](https://github.com/yihan12/LeetCode-exercise/blob/master/Two%20Pointers/075sort-colors/README.md)
 
 
 - [x] **哈希表**
