@@ -59,6 +59,7 @@
 
 
 - [x] **双指针**
+  * - [x] [042.接雨水](https://github.com/yihan12/LeetCode-exercise/tree/master/Two%20Pointers/042trapping-rain-water/README.md)
   * - [x] []()
 
 
