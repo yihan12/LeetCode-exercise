@@ -16,6 +16,7 @@
   * - [x] [二分查找]()  
   * - [x] [大O表示法]()
   * - [x] [递归]()
+  * - [x] [DFS-深度优先遍历](https://github.com/yihan12/LeetCode-exercise/issues/1)
 
 # 数据结构
 
