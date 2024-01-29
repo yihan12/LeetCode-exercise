@@ -15,7 +15,7 @@
   * - [x] [JavaScript运算符（二）](https://github.com/yihan12/LeetCode-exercise/blob/master/basics/Operator2.md)
   * - [x] [二分查找]()  
   * - [x] [大O表示法]()
-  * - [x] [递归]()
+  * - [x] [递归](https://github.com/yihan12/LeetCode-exercise/issues/3)
   * - [x] [DFS-深度优先遍历](https://github.com/yihan12/LeetCode-exercise/issues/1)
   * - [x] [BFS-广度优先遍历](https://github.com/yihan12/LeetCode-exercise/issues/2)
 
