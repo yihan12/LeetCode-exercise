@@ -44,7 +44,7 @@ map.set(nums[i], i); //将减值（减出来的值）和对应索引储存
 ```
 
 
-#### 代码
+##### 代码
 
 ```javascript
 /**
@@ -73,7 +73,7 @@ const twoSum = function (nums, target) {
 
 将 obj 替换 Map 去解决问题
 
-#### 代码
+##### 代码
 
 ```javascript
 /**
@@ -101,7 +101,7 @@ const twoSum1 = function (nums, target) {
 
 遍历解法
 
-#### 代码
+##### 代码
 
 ```javascript
 /**
@@ -127,7 +127,7 @@ const twoSum2 = function (nums, target) {
 
 需要 try catch，扔出 error 才会返回，
 
-#### 代码
+##### 代码
 
 ```javascript
 /**
