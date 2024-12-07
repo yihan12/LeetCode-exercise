@@ -33,7 +33,7 @@ let len = num.length // nums的长度
 for(let i =0;i<len;i++){
 }
 ```
-4. 然后。定义diff = target 减去某一位置的值。如果，`map.has(diff)`也就是map 储存在差值，直接返回插值的索引和当前值的索引 `return [map.get(diff),i]`；否则就利用map储存当前值`nums[i]`和索引`i`
+3. 然后。定义diff = target 减去某一位置的值。如果，`map.has(diff)`也就是map 储存在差值，直接返回插值的索引和当前值的索引 `return [map.get(diff),i]`；否则就利用map储存当前值`nums[i]`和索引`i`
 ```javascript
 let diff = target - nums[i]; //target减去对应的数组的值
 if (map.has(diff)) {
