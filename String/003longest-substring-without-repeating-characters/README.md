@@ -37,7 +37,7 @@
 - 2. 然后我们每次往后去加一个字符也就是str[i]。
 - 3. 这时候就需要判断str[i]是否在newStr中，并且知道它所在的位置，`let j = newStr.indexOf(str[i]);`。
 - 4. 如果j为-1就是newStr不存在str[i],就是把str[i]的数据加到newStr的后面，`newStr = newStr + str[i]`;否则，从j的位置删除前面的数据后，再加上str[i]，`newStr = newStr.substring(j+1,newStr.length);newStr = newStr + str[i]`
-- 5. 最后将存的最大值和当前的最大值比较。
+- 5. 最后将存的最大值和当前的最大值比较。`max = Math.max(max, newStr.length)`
 - 6. 循环上述操作，从而得出最后的最大值max。
 
 #### 代码一
