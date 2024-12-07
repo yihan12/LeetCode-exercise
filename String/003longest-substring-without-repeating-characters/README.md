@@ -71,8 +71,10 @@ const lengthOfLongestSubstring = function (str) {
 代码二的逻辑基本与代码一一致，唯一区别在于方法的使用
 ```javascript
 const lengthOfLongestSubstring = function(s) {
-    let arr = [], max = 0;
-    for(let i = 0; i < s.length; i++) {
+	let len = s.length
+	if(len <= 1) return len
+    let arr = [], max = 1;
+    for(let i = 0; i < len; i++) {
         let index = arr.indexOf(s[i])
         if(index !== -1) {
             arr.splice(0, index+1);
@@ -90,17 +92,33 @@ const lengthOfLongestSubstring = function(s) {
 代码三的思路也是与代码一一致，优点：indexOf会自带循环获取下标的逻辑，时间上会比Map慢
 ```javascript
 const lengthOfLongestSubstring = function(s) {
-    let map = new Map(), max = 0
-    for(let i = 0, j = 0; j < s.length; j++) {
-        if(map.has(s[j])) {
-            i = Math.max(map.get(s[j]) + 1, i)
-        }
-        max = Math.max(max, j - i + 1)
-        map.set(s[j], j)
-    }
-    return max
+	let len = s.length
+	if(len <= 1) return len
+	let max = 1; // 结果
+	let map = new Map(); // 存放字符和对应下标
+	for (let l = 0, r = 0; r < len; r++) {
+		// 如果出现了重复字符，则把左指针移到重复字符的下一位。注意同时满足重复字符的索引大于左指针。
+		if (map.has(s[r]) && map.get(s[r]) >= l) {
+			l = map.get(s[r]) + 1;
+		}
+		max = Math.max(max, r - l + 1); // 计算结果
+		map.set(s[r], r); // 存下每个字符的下标
+	}
+	return max;
 };
 ```
+# 滑动窗口模板
+```javascript
+//外层循环扩展右边界，内层循环扩展左边界
+for (let l = 0, r = 0 ; r < n ; r++) {
+	//当前考虑的元素
+	while (l <= r && check()) {//区间[left,right]不符合题意
+        //扩展左边界
+    }
+    //区间[left,right]符合题意，统计相关信息
+}
+```
+
 
 
 
