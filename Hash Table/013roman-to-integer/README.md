@@ -1,3 +1,4 @@
+#栈 #哈希表 #leetcode #JavaScript 
 ### 题目地址
 
 > https://leetcode.cn/problems/roman-to-integer
@@ -121,4 +122,37 @@ var romanToInt = function(s) {
   return num
   
 };
+```
+
+#### 代码三
+```javascript
+        const romanToInt = function (str) {
+            const map = new Map([
+                ["CM", 900],
+                ["M", 1000],
+                ["CD", 400],
+                ["D", 500],
+                ["XC", 90],
+                ["C", 100],
+                ["XL", 40],
+                ["L", 50],
+                ["IX", 9],
+                ["X", 10],
+                ["IV", 4],
+                ["V", 5],
+                ["I", 1]
+            ]);
+            let roman = 0;
+            while (str.length) {
+                let strI = str.slice(0, 2)
+                if (map.has(strI)) {
+                    roman += map.get(strI)
+                } else {
+                    strI = str.slice(0, 1)
+                    roman += map.get(strI)
+                }
+                str = str.replace(strI, '')
+            }
+            return roman;
+        };
 ```
