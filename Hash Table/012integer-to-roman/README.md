@@ -1,3 +1,4 @@
+#栈 #哈希表 #leetcode #JavaScript 
 ### 题目地址
 
 > https://leetcode.cn/problems/integer-to-roman
@@ -51,7 +52,15 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
  
 ```
 
-### 解答
+### 解法 哈希表
+
+#### 思路
+根据罗马数字的唯一表示法，为了表示一个给定的整数 num，我们寻找不超过 num 的最大符号值，将 num 减去该符号值，然后继续寻找不超过 num 的最大符号值，将该符号拼接在上一个找到的符号之后，循环直至 num 为 0。最后得到的字符串即为 num 的罗马数字表示。
+
+编程时，可以建立一个数值-符号对的列表 valueSymbols，按数值从大到小排列。遍历 valueSymbols 中的每个数值-符号对，若当前数值 value 不超过 num，则从 num 中不断减去 value，直至 num 小于 value，然后遍历下一个数值-符号对。若遍历中 num 为 0 则跳出循环。
+
+
+#### 代码一： 数组
 ```javascript
 const intToRoman = function(num) {
     const valueSymbols = [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
@@ -66,5 +75,37 @@ const intToRoman = function(num) {
         }
     }
     return roman.join('');
+};
+```
+
+#### 代码二：Map
+
+```javascript
+const intToRoman = function (num) {
+
+    const map = new Map([[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]]);
+
+    const roman = [];
+
+    for (let [key, value] of map.entries()) {
+
+        while (num >= key) {
+
+            num -= key;
+
+            roman.push(value);
+
+        }
+
+        if (num == 0) {
+
+            break;
+
+        }
+
+    }
+
+    return roman.join('');
+
 };
 ```
