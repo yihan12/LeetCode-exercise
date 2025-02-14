@@ -1,3 +1,4 @@
+#栈 #哈希表 #leetcode #JavaScript #数组 #简单
 # LeetCode 第 1 号问题：两数之和
 
 ### 题目地址
@@ -23,12 +24,27 @@
 
 ##### 思路
 
-首先把加法转换成减法
-然后利用 Map 的数据结构储存 target 减去某一位置的值和位置 i 对应
-接着判断如果减出的值在 Map 结构中找到则跳出循环，否则将对于的减出来的值和数组的索引 i 对应储存
-最后返回两个索引
+1. 首先创建一个Map。
+```javascript
+const map = new Map()
+```
+2. 接着。遍历nums。
+```javascript
+let len = num.length // nums的长度
+for(let i =0;i<len;i++){
+}
+```
+3. 然后。定义diff = target 减去某一位置的值。如果，`map.has(diff)`也就是map 储存在差值，直接返回插值的索引和当前值的索引 `return [map.get(diff),i]`；否则就利用map储存当前值`nums[i]`和索引`i`
+```javascript
+let diff = target - nums[i]; //target减去对应的数组的值
+if (map.has(diff)) {
+  //判断是否已存在对应的减值，存在则取出返回，否则将减值（减出来的值）和对应索引储存
+  return [map.get(diff), i];
+}
+map.set(nums[i], i); //将减值（减出来的值）和对应索引储存
+```
 
-#### 代码
+##### 代码
 
 ```javascript
 /**
@@ -57,7 +73,7 @@ const twoSum = function (nums, target) {
 
 将 obj 替换 Map 去解决问题
 
-#### 代码
+##### 代码
 
 ```javascript
 /**
@@ -81,11 +97,7 @@ const twoSum1 = function (nums, target) {
 
 #### 解法三(暴力解法)
 
-##### 思路
-
-遍历解法
-
-#### 代码
+##### 代码
 
 ```javascript
 /**
@@ -111,7 +123,7 @@ const twoSum2 = function (nums, target) {
 
 需要 try catch，扔出 error 才会返回，
 
-#### 代码
+##### 代码
 
 ```javascript
 /**
