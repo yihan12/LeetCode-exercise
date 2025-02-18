@@ -1,4 +1,4 @@
-#栈 #哈希表 #leetcode #JavaScript 
+#栈 #哈希表 #leetcode #JavaScript #简单
 ### 题目地址
 
 > https://leetcode.cn/problems/roman-to-integer
