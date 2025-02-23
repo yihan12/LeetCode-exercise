@@ -118,7 +118,7 @@
 | 013 |                                               [roman-to-integer](https://leetcode.cn/problems/roman-to-integer)                                                |                         [罗马数字转整数](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/013roman-to-integer/README.md)                         |             |     ★     |
 | 017 |                           [letter-combinations-of-a-phone-number](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)                            | [电话号码的字母组合](https://github.com/yihan12/LeetCode-exercise/blob/master/daily/017letter-combinations-of-a-phone-number/letter-combinations-of-a-phone-number.md) |             |     ★★     |
 | 029 |                           [divide-two-integers](https://leetcode.cn/problems/divide-two-integers/description/)                            | [两数相除](https://github.com/yihan12/LeetCode-exercise/blob/master/Math/029divide-two-integers/README.md) |             |     ★★     |
-| 030 |                           [divide-two-integers](https://leetcode.cn/problems/divide-two-integers/description/)                            | [两数相除](https://github.com/yihan12/LeetCode-exercise/blob/master/Math/029divide-two-integers/README.md) |             |     ★★     |
+| 030 |                           [substring-with-concatenation-of-all-words](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/)                            | [串联所有单词的子串](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/030substring-with-concatenation-of-all-words/README.md) |             |     ★★     |
 
 - [x] **书籍以及电子书推荐**
  * - [x] 【啊哈!算法】
