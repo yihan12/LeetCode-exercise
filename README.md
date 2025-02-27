@@ -121,6 +121,7 @@
 | 030 |                           [substring-with-concatenation-of-all-words](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/)                            | [串联所有单词的子串](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/030substring-with-concatenation-of-all-words/README.md) |             |     ★★★     |
 | 033 |                           [search-in-rotated-sorted-array](https://leetcode.cn/problems/search-in-rotated-sorted-array/)                            | [搜索旋转排序数组](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/033search-in-rotated-sorted-array/README.md) |             |     ★★     |
 | 035 |                           [search-insert-position](https://leetcode.cn/problems/search-insert-position/)                            | [搜索插入位置](https://github.com/yihan12/LeetCode-exercise/blob/master/Hash%20Table/035search-insert-position/README.md) |             |     ★     |
+| 035 |                           [multiply-strings](https://leetcode.cn/problems/multiply-strings/description/)                            | [字符串相乘](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/043multiply-strings/README.md) |             |     ★★     |
 
 
 - [x] **书籍以及电子书推荐**
