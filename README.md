@@ -124,6 +124,7 @@
 | 043 |                           [multiply-strings](https://leetcode.cn/problems/multiply-strings/description/)                            | [字符串相乘](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/043multiply-strings/README.md) |             |     ★★     |
 | 055 |                           [jump-game](https://leetcode.cn/problems/jump-game/description/)                            | [跳跃游戏](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/055jump-game/README.md) |             |     ★★     |
 | 081 |                           [search-in-rotated-sorted-array-ii](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/)                            | [搜索旋转排序数组 II](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/081search-in-rotated-sorted-array-ii/README.md) |             |     ★★     |
+| 081 |                           [search-in-rotated-sorted-array-ii](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/)                            | [搜索旋转排序数组 II](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/081search-in-rotated-sorted-array-ii/README.md) |             |     ★★     |
 
 
 - [x] **书籍以及电子书推荐**
