@@ -125,7 +125,7 @@
 | 055 |                           [jump-game](https://leetcode.cn/problems/jump-game/description/)                            | [跳跃游戏](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/055jump-game/README.md) |             |     ★★     |
 | 081 |                           [search-in-rotated-sorted-array-ii](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/)                            | [搜索旋转排序数组 II](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/081search-in-rotated-sorted-array-ii/README.md) |             |     ★★     |
 | 135 |                           [find-minimum-in-rotated-sorted-array](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/)                            | [寻找旋转排序数组中的最小值](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/135find-minimum-in-rotated-sorted-array/README.md) |             |     ★★     |
-
+| 135 |                           [find-minimum-in-rotated-sorted-array](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/)                            | [寻找旋转排序数组中的最小值](https://github.com/yihan12/LeetCode-exercise/blob/master/Array/135find-minimum-in-rotated-sorted-array/README.md) |             |     ★★     |
 
 - [x] **书籍以及电子书推荐**
  * - [x] 【啊哈!算法】
